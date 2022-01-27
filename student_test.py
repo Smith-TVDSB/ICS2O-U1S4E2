@@ -3,8 +3,8 @@ import student
 
 
 
-def test_jump():
-    input_values=['jump']
+def test_DirectorKevin():
+    input_values=['Kevin Smith', 'Director']
     output=[]
 
     def mock_input(s=None):
@@ -20,10 +20,10 @@ def test_jump():
 
     student.main()
 
-    assert output[1]=='jumping'
+    assert output[2]=='Director Smith'
 
-def test_eat():
-    input_values=['eat']
+def test_LlamaJuice():
+    input_values=['Apple Juice', 'Llama']
     output=[]
 
     def mock_input(s=None):
@@ -39,10 +39,10 @@ def test_eat():
 
     student.main()
 
-    assert output[1]=='eating'    
-
-def test_scarps():
-    input_values=['scarp']
+    assert output[2]=='Llama Juice'
+ 
+def test_DoctorStrange():
+    input_values=['Steven Strange', 'Doctor']
     output=[]
 
     def mock_input(s=None):
@@ -58,9 +58,10 @@ def test_scarps():
 
     student.main()
 
-    assert output[1]=='scarping'
-def test_groundbreak():
-    input_values=['groundbreak']
+    assert output[2]=='Doctor Strange'
+ 
+def test_CaptainKirk():
+    input_values=['Jame Kirk', 'Captain']
     output=[]
 
     def mock_input(s=None):
@@ -76,4 +77,4 @@ def test_groundbreak():
 
     student.main()
 
-    assert output[1]=='groundbreaking'
+    assert output[2]=='Captain Kirk'
