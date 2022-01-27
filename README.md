@@ -1,7 +1,9 @@
-# 1-4 Exercise 1
+# 1-4 Exercise 2
 
 ### The assignment
-Edit the file named "student.py". Create a program that adds “ing” to the end of a verb that’s input by the user.
+Edit the file named "student.py". Create a program that takes in a first and last name in one string variable, and a title then returns their title and their last name. Hint: You may need to use the find string method in python.
+ 
+
 
 ## Check your work
 Select the "Actions" tab on GitHub and select your latest commit. This will show you if your exercise passes all test cases.
